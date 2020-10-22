@@ -1,4 +1,29 @@
 en:
   layouts:
     application:
+      base_title: "Ruby on Rails Tutorial Sample App"
+    header:
+      sample_app: "sample app"
+      home: "Home"
+      help: "Help"
+      log_in: "Login"
+  static_pages:
+    home:
       title: "Home"
+      english: "English"
+      vietnamese: "Vietnamese"
+      welcome: "Welcome to the Sample App"
+      txt1: "This is the home page for the"
+      txt2: "Ruby on Rails Tutorial"
+      txt3: "sample application."
+      signup: "Sign up now!"
+    help:
+      title: "Help"
+      english: "English"
+      vietnamese: "Vietnamese"
+      help: "Help"
+      txt1: "Get help on the Ruby on Rails Tutorial at the"
+      txt2: "Rails Tutorial help page"
+      txt3: "To get help on this sample app, see the"
+      txt4: "Ruby on Rails Tutorial"
+      txt5: "book"
