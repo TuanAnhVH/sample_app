@@ -1,4 +1,29 @@
 vi:
   layouts:
     application:
-      title: "Trang chủ"
+      base_title: "Ruby on Rails Tutorial Sample App"
+    header:
+      sample_app: "sample app"
+      home: "Trang chủ"
+      help: "Trợ giúp"
+      log_in: "Đăng nhập"
+  static_pages:
+    home:
+      title: "Home"
+      english: "Tiếng anh"
+      vietnamese: "Tiếng việt"
+      welcome: "Chào mừng bạn đến với App"
+      txt1: "Đây là trang chủ của"
+      txt2: "Ruby on Rails Tutorial"
+      txt3: "ứng dụng mẫu."
+      signup: "Đăng ký ngay!"
+    help:
+      title: "Help"
+      english: "Tiếng anh"
+      vietnamese: "Tiếng việt"
+      help: "Trợ giúp"
+      txt1: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại"
+      txt2: "trang trợ giúp Rails Tutorial"
+      txt3: "Để nhận trợ giúp về ứng dụng mẫu này, hãy xem"
+      txt4: "Ruby on Rails Tutorial"
+      txt5: "sách"
