@@ -8,10 +8,17 @@ en:
     confirm_password: "Confirmation"
     login: "Login"
     logout: "Logout"
+    you_sure: "You sure?"
+    delete: "Delete"
   controllers:
     users:
       welcome: "Welcome to sample App"
       user_not_found: "User not found"
+      profile_updated: "Profile updated"
+      please_log_in: "Please log in."
+      deleted: "User deleted"
+      delete_fail: "delete fail"
+      refuse_action: "You do not have permission to perform this action!"
     sessions:
       login_fail: "Invalid email/password combination"
   layouts:
@@ -72,6 +79,14 @@ en:
       title: "New user"
       h1_content: "Sign up"
       signup: "Sign up"
+    edit:
+      title: "Edit user"
+      save_change: "Save changes"
+      h1_content: "Update your profile"
+      change: "change"
+    index:
+      title: "All users"
+      h1_content: "All users"
   sessions:
     new:
       title: "Login"
