@@ -1,0 +1,13 @@
+<footer class="footer">
+  <small>
+    <%= t(".left_content", href_1: link_to(t(".href_1"), "http://www.railstutorial.org/"),
+    href_2: link_to(t(".href_2"), "http://www.michaelhartl.com/")).html_safe %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t(".about"), about_path %></li>
+      <li><%= link_to t(".contact"), contact_path %></li>
+      <li><%= link_to t(".news"), "http://news.railstutorial.org/" %></li>
+    </ul>
+  </nav>
+</footer>
