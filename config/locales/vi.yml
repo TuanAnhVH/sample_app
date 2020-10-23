@@ -74,4 +74,6 @@ vi:
     new:
       title: "Login"
       h1_content: "Đăng nhập"
-      sign_up_now: "Đăng ký ngay!"
+      remember_me: "Lưu tài khoản"
+      p_content: "Tài khoản mới? %{href_1}"
+      href_1: "Đăng ký ngay"

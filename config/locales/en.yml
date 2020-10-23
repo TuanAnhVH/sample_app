@@ -76,4 +76,6 @@ en:
     new:
       title: "Login"
       h1_content: "Login"
-      sign_up_now: "Sign up now!"
+      remember_me: "Remember me"
+      p_content: "New user? %{href_1}"
+      href_1: "Sign up now!"
