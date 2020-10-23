@@ -1,4 +1,8 @@
 vi:
+  controllers:
+    users:
+      welcome: "Xin chào bạn đến với App"
+      user_not_found: "Không tìm thấy tài khoản"
   layouts:
     application:
       base_title: "Ruby on Rails Tutorial Sample App"
@@ -14,6 +18,10 @@ vi:
       about: "Giới thiệu"
       contact: "Liên hệ"
       news: "Tin tức"
+  shared:
+    error_messages:
+      content_1: "Form có "
+      content_2: "lỗi"
   static_pages:
     home:
       title: "Home"
@@ -56,5 +64,9 @@ vi:
       title: "New user"
       english: "English"
       vietnamese: "Vietnamese"
-      h1_content: "Users#new"
-      p_content: "Tìm tôi trong app/views/users/new.html.erb"
+      h1_content: "Đăng ký"
+      name: "Tên"
+      email: "Email"
+      password: "Mật khẩu"
+      confirm_password: "Xác nhận mật khẩu"
+      signup: "Đăng ký"
