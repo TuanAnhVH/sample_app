@@ -1,0 +1,10 @@
+<% provide :title, t(".title") %>
+<%= link_to t(".english"), locale: :en %>
+<%= link_to t(".vietnamese"), locale: :vi %>
+<h1><%= t ".h1_content" %></h1>
+<p>
+  <%= t(".p_content", href_1: link_to(t(".href_1"), "http://www.railstutorial.org/"),
+    href_2: link_to(t(".href_2"), "http://www.railstutorial.org/book"),
+    href_3: link_to(t(".href_3"), "http://screencasts.railstutorial.org/"),
+    href_4: link_to(t(".href_4"), "http://rubyonrails.org/")).html_safe %>
+</p>
