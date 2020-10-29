@@ -1,4 +1,8 @@
 en:
+  controllers:
+    users:
+      welcome: "Welcome to sample App"
+      user_not_found: "User not found"
   layouts:
     application:
       base_title: "Ruby on Rails Tutorial Sample App"
@@ -14,6 +18,10 @@ en:
       about: "About"
       contact: "Contact"
       news: "News"
+  shared:
+    error_messages:
+      content_1: "The form contains "
+      content_2: "errors"
   static_pages:
     home:
       title: "Home"
@@ -56,5 +64,9 @@ en:
       title: "New user"
       english: "English"
       vietnamese: "Vietnamese"
-      h1_content: "Users#new"
-      p_content: "Find me in app/views/users/new.html.erb"
+      h1_content: "Sign up"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      confirm_password: "Confirmation"
+      signup: "Sign up"
