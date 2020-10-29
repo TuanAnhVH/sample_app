@@ -1,6 +1,6 @@
 <% provide :title, t(".title") %>
-<%= link_to t(".english"), locale: :en %>
-<%= link_to t(".vietnamese"), locale: :vi %>
+<%= link_to t("base.english"), locale: :en %>
+<%= link_to t("base.vietnamese"), locale: :vi %>
 <h1><%= t ".h1_content" %></h1>
 <p>
   <%= t(".p_content", href_1: link_to(t(".href_1"), "http://www.railstutorial.org/"),

@@ -1,8 +1,19 @@
 en:
+  base:
+    english: "English"
+    vietnamese: "Vietnamese"
+    name: "Name"
+    email: "Email"
+    password: "Password"
+    confirm_password: "Confirmation"
+    login: "Login"
+    logout: "Logout"
   controllers:
     users:
       welcome: "Welcome to sample App"
       user_not_found: "User not found"
+    sessions:
+      login_fail: "Invalid email/password combination"
   layouts:
     application:
       base_title: "Ruby on Rails Tutorial Sample App"
@@ -10,7 +21,12 @@ en:
       sample_app: "sample app"
       home: "Home"
       help: "Help"
+      users: "Users"
+      account: "Account"
       log_in: "Login"
+      log_out: "Logout"
+      profile: "Profile"
+      settings: "Settings"
     footer:
       left_content: "the %{href_1} by %{href_2}"
       href_1: "Ruby on Rails Tutorial"
@@ -25,8 +41,6 @@ en:
   static_pages:
     home:
       title: "Home"
-      english: "English"
-      vietnamese: "Vietnamese"
       h1_content: "Welcome to the Sample App"
       txt1: "This is the home page for the"
       txt2: "Ruby on Rails Tutorial"
@@ -34,8 +48,6 @@ en:
       signup: "Sign up now!"
     help:
       title: "Help"
-      english: "English"
-      vietnamese: "Vietnamese"
       h1_content: "Help"
       p_content: "Get help on the Ruby on Rails Tutorial at the %{href_1} To get help on this sample app
         , see the %{href_2} book"
@@ -43,8 +55,6 @@ en:
       href_2: "Ruby on Rails Tutorial"
     about:
       title: "About"
-      english: "English"
-      vietnamese: "Vietnamese"
       h1_content: "About"
       p_content: "The %{href_1} is a %{href_2} and %{href_3} to teach web development with %{href_4}
         . This is the sample application for the tutorial."
@@ -54,19 +64,16 @@ en:
       href_4: "Ruby on Rails"
     contact:
       title: "Contact"
-      english: "English"
-      vietnamese: "Vietnamese"
       h1_content: "Contact"
       p_content: "Contact the Ruby on Rails Tutorial about the sample app at the %{href_1}"
       href_1: "contact page"
   users:
     new:
       title: "New user"
-      english: "English"
-      vietnamese: "Vietnamese"
       h1_content: "Sign up"
-      name: "Name"
-      email: "Email"
-      password: "Password"
-      confirm_password: "Confirmation"
       signup: "Sign up"
+  sessions:
+    new:
+      title: "Login"
+      h1_content: "Login"
+      sign_up_now: "Sign up now!"

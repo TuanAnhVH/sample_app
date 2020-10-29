@@ -1,6 +1,6 @@
 <% provide :title, t(".title") %>
-<%= link_to t(".english"), locale: :en %>
-<%= link_to t(".vietnamese"), locale: :vi %>
+<%= link_to t("base.english"), locale: :en %>
+<%= link_to t("base.vietnamese"), locale: :vi %>
 
 <h1><%= t ".h1_content" %></h1>
 <div class="row">
@@ -8,16 +8,16 @@
     <%= form_for(@user) do |f| %>
       <%= render "shared/error_messages" %>
 
-      <%= f.label :name, t(".name") %>
+      <%= f.label :name, t("base.name") %>
       <%= f.text_field :name, class: "form-control" %>
 
-      <%= f.label :email, t(".email") %>
+      <%= f.label :email, t("base.email") %>
       <%= f.email_field :email, class: "form-control" %>
 
-      <%= f.label :password, t(".password") %>
+      <%= f.label :password, t("base.password") %>
       <%= f.password_field :password, class: "form-control" %>
 
-      <%= f.label :password_confirmation, t(".confirm_password") %>
+      <%= f.label :password_confirmation, t("base.confirm_password") %>
       <%= f.password_field :password_confirmation, class: "form-control" %>
 
       <%= f.submit t(".signup"), class: "btn btn-primary" %>

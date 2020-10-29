@@ -1,8 +1,17 @@
 vi:
+  base:
+    english: "Tiếng anh"
+    vietnamese: "Tiếng việt"
+    name: "Tên"
+    email: "Email"
+    password: "Mật khẩu"
+    login: "Đăng nhập"
   controllers:
     users:
       welcome: "Xin chào bạn đến với App"
       user_not_found: "Không tìm thấy tài khoản"
+    sessions:
+      login_fail: "Sai email hoặc mật khẩu"
   layouts:
     application:
       base_title: "Ruby on Rails Tutorial Sample App"
@@ -10,7 +19,12 @@ vi:
       sample_app: "sample app"
       home: "Trang chủ"
       help: "Trợ giúp"
+      users: "Người dùng"
+      account: "Tài khoản"
       log_in: "Đăng nhập"
+      log_out: "Đăng xuất"
+      profile: "Hồ sơ"
+      settings: "Cài đặt"
     footer:
       left_content: "%{href_1} viết bởi %{href_2}"
       href_1: "Ruby on Rails Tutorial"
@@ -25,8 +39,6 @@ vi:
   static_pages:
     home:
       title: "Home"
-      english: "Tiếng anh"
-      vietnamese: "Tiếng việt"
       h1_content: "Chào mừng bạn đến với App"
       txt1: "Đây là trang chủ của"
       txt2: "Ruby on Rails Tutorial"
@@ -34,8 +46,6 @@ vi:
       signup: "Đăng ký ngay!"
     help:
       title: "Help"
-      english: "Tiếng anh"
-      vietnamese: "Tiếng việt"
       h1_content: "Trợ giúp"
       p_content: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại %{href_1} Để nhận trợ giúp về ứng dụng mẫu này
         , hãy xem %{href_2}"
@@ -43,8 +53,6 @@ vi:
       href_2: "Ruby on Rails Tutorial"
     about:
       title: "About"
-      english: "Tiếng anh"
-      vietnamese: "Tiếng việt"
       h1_content: "Giới thiệu"
       p_content: "%{href_1} là một cuốn %{href_2} và %{href_3} dạy phát triển web với %{href_4}
         . Đây là ứng dụng mẫu cho hướng dẫn."
@@ -54,19 +62,16 @@ vi:
       href_4: "Ruby on Rails"
     contact:
       title: "Contact"
-      english: "Tiếng anh"
-      vietnamese: "Tiếng việt"
       h1_content: "Liên hệ"
       p_content: "Liên hệ với Hướng dẫn Ruby on Rails về ứng dụng mẫu tại %{href_1}"
       href_1: "contact page"
   users:
     new:
       title: "New user"
-      english: "English"
-      vietnamese: "Vietnamese"
       h1_content: "Đăng ký"
-      name: "Tên"
-      email: "Email"
-      password: "Mật khẩu"
-      confirm_password: "Xác nhận mật khẩu"
       signup: "Đăng ký"
+  sessions:
+    new:
+      title: "Login"
+      h1_content: "Đăng nhập"
+      sign_up_now: "Đăng ký ngay!"
