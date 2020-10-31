@@ -9,6 +9,8 @@ gem "rails", "~> 6.0.3", ">= 6.0.3.4"
 
 gem "bcrypt", "3.1.13"
 
+gem "faker", "1.4.2"
+
 gem "rails-i18n"
 
 gem "config"
@@ -47,4 +49,6 @@ group :test do
   gem "webdrivers"
 end
 
+gem "bootstrap-will_paginate", "1.0.0"
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem "will_paginate", "3.1.7"

@@ -1,5 +1,6 @@
 en:
   base:
+    sample_app: "Sample app"
     english: "English"
     vietnamese: "Vietnamese"
     name: "Name"
@@ -8,17 +9,30 @@ en:
     confirm_password: "Confirmation"
     login: "Login"
     logout: "Logout"
+    you_sure: "You sure?"
+    delete: "Delete"
   controllers:
     users:
       welcome: "Welcome to sample App"
       user_not_found: "User not found"
+      profile_updated: "Profile updated"
+      please_log_in: "Please log in."
+      deleted: "User deleted"
+      delete_fail: "delete fail"
+      refuse_action: "You do not have permission to perform this action!"
+      check_email_to_active: "Please check your email to activate your account."
     sessions:
       login_fail: "Invalid email/password combination"
+    acount_activations:
+      account_activated: "Account activated!"
+      invalid_link: "Invalid activation link"
+  mailers:
+    user_mailer:
+      account_activation: "Account activation"
   layouts:
     application:
       base_title: "Ruby on Rails Tutorial Sample App"
     header:
-      sample_app: "sample app"
       home: "Home"
       help: "Help"
       users: "Users"
@@ -72,6 +86,14 @@ en:
       title: "New user"
       h1_content: "Sign up"
       signup: "Sign up"
+    edit:
+      title: "Edit user"
+      save_change: "Save changes"
+      h1_content: "Update your profile"
+      change: "change"
+    index:
+      title: "All users"
+      h1_content: "All users"
   sessions:
     new:
       title: "Login"
@@ -79,3 +101,12 @@ en:
       remember_me: "Remember me"
       p_content: "New user? %{href_1}"
       href_1: "Sign up now!"
+  user_mailer:
+    account_activation:
+      h1_content: "Sample App"
+      welcome: "Welcome to the Sample App!"
+      click: " Click on the link below to activate your account:"
+      activate: "Active"
+    password_reset:
+      h1_content: "User#password_reset"
+      find_me: ", find me in app/views/user_mailer/password_reset.html.erb"
