@@ -18,13 +18,19 @@ vi:
       deleted: "Tài khoản đã bị xóa"
       delete_fail: "Xóa tài khoản lỗi"
       refuse_action: "Bạn không có quyền thực hiện hành động này!"
+      check_email_to_active: "Vui lòng kiểm tra email để kích hoạt!"
     sessions:
       login_fail: "Sai email hoặc mật khẩu"
+    acount_activations:
+      account_activated: "Tài khoản đã được kích hoạt"
+      invalid_link: "Địa chỉ không hợp lệ"
+  mailers:
+    user_mailer:
+      account_activation: "Kích hoạt tài khoản"
   layouts:
     application:
       base_title: "Ruby on Rails Tutorial Sample App"
     header:
-      sample_app: "sample app"
       home: "Trang chủ"
       help: "Trợ giúp"
       users: "Người dùng"
@@ -93,3 +99,11 @@ vi:
       remember_me: "Lưu tài khoản"
       p_content: "Tài khoản mới? %{href_1}"
       href_1: "Đăng ký ngay"
+  user_mailer:
+    account_activation:
+      welcome: "Xin chào đến với Sample app"
+      click: " Click địa chỉ bên dưới để kích hoạt"
+      activate: "Kích hoạt"
+  password_reset:
+      h1_content: "User#password_reset"
+      find_me: ", tìm tôi trong app/views/user_mailer/password_reset.html.erb"
