@@ -18,13 +18,36 @@ vi:
       deleted: "Tài khoản đã bị xóa"
       delete_fail: "Xóa tài khoản lỗi"
       refuse_action: "Bạn không có quyền thực hiện hành động này!"
+      check_email_to_active: "Vui lòng kiểm tra email để kích hoạt!"
     sessions:
       login_fail: "Sai email hoặc mật khẩu"
+    acount_activations:
+      account_activated: "Tài khoản đã được kích hoạt"
+      invalid_link: "Địa chỉ không hợp lệ"
+    password_resets:
+      check_email_to_reset: "Email được gửi kèm theo hướng dẫn"
+      email_not_found: "Không tìm thấy địa chỉ email"
+      pass_empty: "không thể để trống"
+      success: "Mật khẩu đã được đặt lại."
+      expired: "Đặt lại mật khẩu đã hết hạn."
+      user_not_found: "Không tìm thấy tài khoản"
+    microposts:
+      created: "Đã tạo micropost!"
+      deleted: "Micropost đã bị xóa"
+      delete_fail: "Không xóa được microposts"
+      access_error: "Lỗi truy cập microposts"
+  models:
+    microposts:
+      image_type: "Phải là một định dạng hình ảnh hợp lệ"
+      image_size: "phải nhỏ hơn 5MB"
+  mailers:
+    user_mailer:
+      account_activation: "Kích hoạt tài khoản"
+      password_reset: "Đặt lại mật khẩu"
   layouts:
     application:
       base_title: "Ruby on Rails Tutorial Sample App"
     header:
-      sample_app: "sample app"
       home: "Trang chủ"
       help: "Trợ giúp"
       users: "Người dùng"
@@ -44,6 +67,10 @@ vi:
     error_messages:
       content_1: "Form có "
       content_2: "lỗi"
+    micropost_form:
+      place: "Soạn micropost mới ..."
+    user_info:
+      profile: "xem hồ sơ của tôi"
   static_pages:
     home:
       title: "Home"
@@ -93,3 +120,31 @@ vi:
       remember_me: "Lưu tài khoản"
       p_content: "Tài khoản mới? %{href_1}"
       href_1: "Đăng ký ngay"
+      forgot_password: "(Quên mật khẩu)"
+  user_mailer:
+    account_activation:
+      h1_content: "Sample App"
+      hi: "Xin chào "
+      welcome: "Xin chào đến với Sample app"
+      click: " Click địa chỉ bên dưới để kích hoạt"
+      activate: "Kích hoạt"
+    password_reset:
+      link: "Đặt lại mật khẩu"
+      content_1: "Để đặt lại mật khẩu, hãy nhấp vào liên kết bên dưới:"
+      content_2: "Liên kết này sẽ hết hạn sau hai giờ."
+      content_3: "Nếu bạn không yêu cầu đặt lại mật khẩu của mình,"
+      content_4: "vui lòng bỏ qua email này và"
+      content_5: "mật khẩu của bạn sẽ vẫn như cũ."
+  password_resets:
+    new:
+      title: "Forgot password"
+      h1_content: "Quên mật khẩu"
+      submit: "Xác nhận"
+    edit:
+      title: "Reset password"
+      h1_content: "Đặt lại mật khẩu"
+      submit: "Cập nhật mật khẩu"
+  microposts:
+    micropost:
+      posted: "Đã đăng "
+      ago: " về trước"
