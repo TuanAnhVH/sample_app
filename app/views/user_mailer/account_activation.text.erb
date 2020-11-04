@@ -1,3 +1,3 @@
-Hi <%= @user.name %>,
+<%= t ".hi" %><%= @user.name %>,
 <p><%= t ".welcome" %><%= t ".click" %></p>
 <%= edit_account_activation_url(id: @user.activation_token, email: @user.email) %>

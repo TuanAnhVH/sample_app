@@ -7,3 +7,5 @@ user:
     min_length: 6
 paging:
   pg_10: 10
+expired:
+  e_2: 2
