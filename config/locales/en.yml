@@ -11,6 +11,7 @@ en:
     logout: "Logout"
     you_sure: "You sure?"
     delete: "Delete"
+    post: "Post"
   controllers:
     users:
       welcome: "Welcome to sample App"
@@ -33,6 +34,15 @@ en:
       success: "Password has been reset."
       expired: "Password reset has expired."
       user_not_found: "User not found"
+    microposts:
+      created: "Micropost created!"
+      deleted: "Micropost deleted"
+      delete_fail: "Microposts delete fail"
+      access_error: "microposts access error"
+  models:
+    microposts:
+      image_type: "must be a valid image format"
+      image_size: "should be less than 5MB"
   mailers:
     user_mailer:
       account_activation: "Account activation"
@@ -60,6 +70,10 @@ en:
     error_messages:
       content_1: "The form contains "
       content_2: "errors"
+    micropost_form:
+      place: "Compose new micropost..."
+    user_info:
+      profile: "view my profile"
   static_pages:
     home:
       title: "Home"
@@ -68,6 +82,7 @@ en:
       txt2: "Ruby on Rails Tutorial"
       txt3: "sample application."
       signup: "Sign up now!"
+      h3_content: "Micropost Feed"
     help:
       title: "Help"
       h1_content: "Help"
@@ -133,3 +148,7 @@ en:
       title: "Reset password"
       h1_content: "Reset password"
       submit: "Update password"
+  microposts:
+    micropost:
+      posted: "Posted "
+      ago: " ago."

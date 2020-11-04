@@ -9,6 +9,7 @@ vi:
     login: "Đăng nhập"
     you_sure: "Bạn chắc chứ?"
     delete: "Xóa"
+    post: "Đăng"
   controllers:
     users:
       welcome: "Xin chào bạn đến với App"
@@ -31,6 +32,15 @@ vi:
       success: "Mật khẩu đã được đặt lại."
       expired: "Đặt lại mật khẩu đã hết hạn."
       user_not_found: "Không tìm thấy tài khoản"
+    microposts:
+      created: "Đã tạo micropost!"
+      deleted: "Micropost đã bị xóa"
+      delete_fail: "Không xóa được microposts"
+      access_error: "Lỗi truy cập microposts"
+  models:
+    microposts:
+      image_type: "Phải là một định dạng hình ảnh hợp lệ"
+      image_size: "phải nhỏ hơn 5MB"
   mailers:
     user_mailer:
       account_activation: "Kích hoạt tài khoản"
@@ -58,6 +68,10 @@ vi:
     error_messages:
       content_1: "Form có "
       content_2: "lỗi"
+    micropost_form:
+      place: "Soạn micropost mới ..."
+    user_info:
+      profile: "xem hồ sơ của tôi"
   static_pages:
     home:
       title: "Home"
@@ -66,6 +80,7 @@ vi:
       txt2: "Ruby on Rails Tutorial"
       txt3: "ứng dụng mẫu."
       signup: "Đăng ký ngay!"
+      h3_content: "Bài đăng"
     help:
       title: "Help"
       h1_content: "Trợ giúp"
@@ -131,3 +146,7 @@ vi:
       title: "Reset password"
       h1_content: "Đặt lại mật khẩu"
       submit: "Cập nhật mật khẩu"
+  microposts:
+    micropost:
+      posted: "Đã đăng "
+      ago: " về trước"
