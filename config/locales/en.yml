@@ -11,6 +11,7 @@ en:
     logout: "Logout"
     you_sure: "You sure?"
     delete: "Delete"
+    post: "Post"
   controllers:
     users:
       welcome: "Welcome to sample App"
@@ -81,6 +82,7 @@ en:
       txt2: "Ruby on Rails Tutorial"
       txt3: "sample application."
       signup: "Sign up now!"
+      h3_content: "Micropost Feed"
     help:
       title: "Help"
       h1_content: "Help"

@@ -5,6 +5,9 @@ user:
     max_length: 255
   password:
     min_length: 6
+micropost:
+  content:
+    max_length: 140
 paging:
   pg_10: 10
 avatar:
@@ -13,4 +16,6 @@ avatar:
 expired:
   e_2: 2
 image:
-  size: 200
+  show: 200
+  size: 5
+  accept: "image/jpeg,image/gif,image/png"

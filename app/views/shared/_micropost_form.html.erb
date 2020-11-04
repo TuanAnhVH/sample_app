@@ -3,8 +3,8 @@
   <div class="field">
     <%= f.text_area :content, placeholder: t(".place") %>
   </div>
-  <%= f.submit "Post", class: "btn btn-primary" %>
+  <%= f.submit t("base.post"), class: "btn btn-primary" %>
   <span class="image">
-     <%= f.file_field :image, accept: "image/jpeg,image/gif,image/png" %>
+    <%= f.file_field :image, accept: Settings.image.accept %>
   </span>
 <% end %>

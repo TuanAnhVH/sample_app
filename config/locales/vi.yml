@@ -9,6 +9,7 @@ vi:
     login: "Đăng nhập"
     you_sure: "Bạn chắc chứ?"
     delete: "Xóa"
+    post: "Đăng"
   controllers:
     users:
       welcome: "Xin chào bạn đến với App"
@@ -79,6 +80,7 @@ vi:
       txt2: "Ruby on Rails Tutorial"
       txt3: "ứng dụng mẫu."
       signup: "Đăng ký ngay!"
+      h3_content: "Bài đăng"
     help:
       title: "Help"
       h1_content: "Trợ giúp"

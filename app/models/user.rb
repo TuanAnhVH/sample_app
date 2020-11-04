@@ -68,7 +68,7 @@ class User < ApplicationRecord
   end
 
   def feed
-    Micropost.where("user_id = ?", id)
+    microposts.compare_user_id(id).created_at_desc
   end
 
   private
