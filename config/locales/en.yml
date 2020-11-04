@@ -9,8 +9,15 @@ en:
     confirm_password: "Confirmation"
     login: "Login"
     logout: "Logout"
+    user_not_found: "User not found"
     you_sure: "You sure?"
     delete: "Delete"
+    post: "Post"
+    microposts: "Microposts"
+    follow: "Follow"
+    unfollow: "Unfollow"
+    following: "Following"
+    followers: "Followers"
   controllers:
     users:
       welcome: "Welcome to sample App"
@@ -21,6 +28,8 @@ en:
       delete_fail: "delete fail"
       refuse_action: "You do not have permission to perform this action!"
       check_email_to_active: "Please check your email to activate your account."
+      following: "Following"
+      followers: "Followers"
     sessions:
       login_fail: "Invalid email/password combination"
     acount_activations:
@@ -33,6 +42,18 @@ en:
       success: "Password has been reset."
       expired: "Password reset has expired."
       user_not_found: "User not found"
+    microposts:
+      created: "Micropost created!"
+      deleted: "Micropost deleted"
+      delete_fail: "Microposts delete fail"
+      access_error: "microposts access error"
+    relationships:
+      not_found_relationship: "Not found relationship"
+
+  models:
+    microposts:
+      image_type: "must be a valid image format"
+      image_size: "should be less than 5MB"
   mailers:
     user_mailer:
       account_activation: "Account activation"
@@ -60,6 +81,10 @@ en:
     error_messages:
       content_1: "The form contains "
       content_2: "errors"
+    micropost_form:
+      place: "Compose new micropost..."
+    user_info:
+      profile: "view my profile"
   static_pages:
     home:
       title: "Home"
@@ -68,6 +93,7 @@ en:
       txt2: "Ruby on Rails Tutorial"
       txt3: "sample application."
       signup: "Sign up now!"
+      h3_content: "Micropost Feed"
     help:
       title: "Help"
       h1_content: "Help"
@@ -102,6 +128,10 @@ en:
     index:
       title: "All users"
       h1_content: "All users"
+    show_follow:
+      view: "view my profile"
+    show:
+      microposts: " microposts"
   sessions:
     new:
       title: "Login"
@@ -133,3 +163,7 @@ en:
       title: "Reset password"
       h1_content: "Reset password"
       submit: "Update password"
+  microposts:
+    micropost:
+      posted: "Posted "
+      ago: " ago."

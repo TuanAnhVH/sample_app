@@ -7,8 +7,16 @@ vi:
     password: "Mật khẩu"
     confirm_password: "Xác nhận mật khẩu"
     login: "Đăng nhập"
+    logout: "Đăng xuất"
+    user_not_found: "Không tìm thấy tài khoản"
     you_sure: "Bạn chắc chứ?"
     delete: "Xóa"
+    post: "Đăng"
+    microposts: "Các bài đăng"
+    follow: "Theo dõi"
+    unfollow: "Bỏ theo dõi"
+    following: "Đang theo dõi"
+    followers: "Người theo dõi"
   controllers:
     users:
       welcome: "Xin chào bạn đến với App"
@@ -19,6 +27,8 @@ vi:
       delete_fail: "Xóa tài khoản lỗi"
       refuse_action: "Bạn không có quyền thực hiện hành động này!"
       check_email_to_active: "Vui lòng kiểm tra email để kích hoạt!"
+      following: "Following"
+      followers: "Followers"
     sessions:
       login_fail: "Sai email hoặc mật khẩu"
     acount_activations:
@@ -31,6 +41,17 @@ vi:
       success: "Mật khẩu đã được đặt lại."
       expired: "Đặt lại mật khẩu đã hết hạn."
       user_not_found: "Không tìm thấy tài khoản"
+    microposts:
+      created: "Đã tạo micropost!"
+      deleted: "Micropost đã bị xóa"
+      delete_fail: "Không xóa được microposts"
+      access_error: "Lỗi truy cập microposts"
+    relationships:
+      not_found_relationship: "Không tìm thấy quan hệ"
+  models:
+    microposts:
+      image_type: "Phải là một định dạng hình ảnh hợp lệ"
+      image_size: "phải nhỏ hơn 5MB"
   mailers:
     user_mailer:
       account_activation: "Kích hoạt tài khoản"
@@ -58,6 +79,10 @@ vi:
     error_messages:
       content_1: "Form có "
       content_2: "lỗi"
+    micropost_form:
+      place: "Soạn micropost mới ..."
+    user_info:
+      profile: "xem hồ sơ của tôi"
   static_pages:
     home:
       title: "Home"
@@ -66,6 +91,7 @@ vi:
       txt2: "Ruby on Rails Tutorial"
       txt3: "ứng dụng mẫu."
       signup: "Đăng ký ngay!"
+      h3_content: "Bài đăng"
     help:
       title: "Help"
       h1_content: "Trợ giúp"
@@ -100,6 +126,10 @@ vi:
     index:
       title: "All users"
       h1_content: "Danh sách tài khoản"
+    show_follow:
+      view: "xem hồ sơ của tôi"
+    show:
+      microposts: " bài đăng"
   sessions:
     new:
       title: "Login"
@@ -131,3 +161,7 @@ vi:
       title: "Reset password"
       h1_content: "Đặt lại mật khẩu"
       submit: "Cập nhật mật khẩu"
+  microposts:
+    micropost:
+      posted: "Đã đăng "
+      ago: " về trước"

@@ -5,7 +5,18 @@ user:
     max_length: 255
   password:
     min_length: 6
+micropost:
+  content:
+    max_length: 140
 paging:
   pg_10: 10
+avatar:
+  size_30: 30
+  size_50: 50
+  size_80: 80
 expired:
   e_2: 2
+image:
+  show: 200
+  size: 5
+  accept: "image/jpeg,image/gif,image/png"
