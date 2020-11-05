@@ -9,4 +9,12 @@ module UsersHelper
   def valid_admin? user
     current_user.admin? && !current_user?(user)
   end
+
+  def find_relationship id
+    relationship = current_user.active_relationships.find_by(followed_id: id)
+    return relationship if relationship
+
+    flash[:danger] = t "base.user_not_found"
+    redirect_to root_path
+  end
 end
